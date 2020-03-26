@@ -3,14 +3,14 @@ metadata:
 projects:
   - name: Julio-OpenShift-Test-App
     source:
-      location: 'https://us-south.git.cloud.ibm.com/amtrice/Andy-OpenShift-Test-App'
+      location: 'https://github.com/jruano03/nodejs-cloudant'
       type: git
 components:
   - id: che-incubator/typescript/latest
     memoryLimit: 512Mi
     type: chePlugin
   - mountSources: true
-    endpoints:
+    endpoints:App
       - name: nodejs
         port: 3000
     memoryLimit: 512Mi
