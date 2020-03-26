@@ -10,7 +10,7 @@ components:
     memoryLimit: 512Mi
     type: chePlugin
   - mountSources: true
-    endpoints:App
+    endpoints:
       - name: nodejs
         port: 3000
     memoryLimit: 512Mi
